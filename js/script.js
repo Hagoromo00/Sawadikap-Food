@@ -1,11 +1,3 @@
-/*
-  Copyright © 2022 
-  Develop by Farhan Yuswa Biyanto and Muhammad Dzakiyyudin.
-  Pemrograman Berbasis Web, 
-  Broadband Multimedia, 
-  Politeknik Negeri Jakarta.
-*/
-
 // modal JAVASCRIPT
 $(document).ready(function(){
     $('.click1').click(function(){
@@ -48,8 +40,6 @@ $(document).ready(function(){
 
 // smooth scroll JAVASCIRPT
 $(function() {
-  // This will select everything with the class smoothScroll
-  // This should prevent problems with carousel, scrollspy, etc...
   $('.menu-header-footer').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
